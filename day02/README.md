@@ -19,6 +19,8 @@ sklearn中IDF的计算公式与一般书中介绍的不一样:
 $$逆文档率IDF(X) = log\frac{N+1}{N(x)+1} + 1 $$
 N=训练集文本总数, N(x)=包含词x的文本数
 
+![tfidf](https://user-images.githubusercontent.com/48701021/136818267-51ee1e8d-c03a-460f-a9db-03e11327d285.PNG)
+
 ### 任务4：使用 TFIDF 特征 和 线性模型完成训练和预测
 
 1. 使用TFIDF提取训练集和测试集特征
