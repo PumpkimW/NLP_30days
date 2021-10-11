@@ -5,7 +5,7 @@
 
 3. 使用TfidfVectorizer
 
-
+![image](https://github.com/PumpkimW/NLP_30days/blob/main/day02/tfidf.PNG)
 
 ### 任务4：使用 TFIDF 特征 和 线性模型完成训练和预测
 
