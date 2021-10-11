@@ -5,21 +5,7 @@
 
 3. 使用TfidfVectorizer
 
-TfidfVectorizer()基于TF-IDF算法。此算法包括两部分TF和IDF，两者相乘得到TF-IDF算法。
 
-TF算法统计某训练文本中，某个词的出现次数，计算公式如下：
-
-$$词频TF = \frac{某个词在单个文本中出现的次数}{所有文本的总词数}$$
-
-IDF算法用于调整词频的权重系数，如果一个词越常见，那么分母就越大，逆文档频率就越小越接近0.
-
-$$逆文档率IDF = \frac{文本总个数}{包含改词的文本个数}$$
-
-sklearn中IDF的计算公式与一般书中介绍的不一样:
-$$逆文档率IDF(X) = log\frac{N+1}{N(x)+1} + 1 $$
-N=训练集文本总数, N(x)=包含词x的文本数
-
-![tfidf](https://user-images.githubusercontent.com/48701021/136818267-51ee1e8d-c03a-460f-a9db-03e11327d285.PNG)
 
 ### 任务4：使用 TFIDF 特征 和 线性模型完成训练和预测
 
